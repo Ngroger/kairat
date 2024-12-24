@@ -86,7 +86,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.bogdandev3444456.kairat2'
+    namespace "com.fkkajrat"
     defaultConfig {
         applicationId 'com.bogdandev3444456.kairat2'
         minSdkVersion rootProject.ext.minSdkVersion
