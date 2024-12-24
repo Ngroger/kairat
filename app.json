@@ -1,0 +1,84 @@
+{
+  "expo": {
+    "name": "ФК Кайрат",
+    "slug": "kairat2",
+    "version": "1.1.4",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FECC01"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.bogdandev3444456.kairat2",
+      "buildNumber": "1.1.4",
+      "icon": "./assets/icon.png",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs access to your camera to take photos.",
+        "CFBundleIconFiles": [
+          "icon-20",
+          "icon-20@2x",
+          "icon-20@3x",
+          "icon-29",
+          "icon-29@2x",
+          "icon-29@3x",
+          "icon-40",
+          "icon-40@2x",
+          "icon-40@3x",
+          "icon-60@2x",
+          "icon-60@3x",
+          "icon-76",
+          "icon-76@2x",
+          "icon-83.5@2x",
+          "icon-1024"
+        ],
+        "CFBundleIcons": {
+          "CFBundlePrimaryIcon": {
+            "CFBundleIconFiles": [
+              "icon-20",
+              "icon-20@2x",
+              "icon-20@3x",
+              "icon-29",
+              "icon-29@2x",
+              "icon-29@3x",
+              "icon-40",
+              "icon-40@2x",
+              "icon-40@3x",
+              "icon-60@2x",
+              "icon-60@3x",
+              "icon-76",
+              "icon-76@2x",
+              "icon-83.5@2x",
+              "icon-1024"
+            ],
+            "UIPrerenderedIcon": true
+          }
+        }
+      }
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FECC01"
+      },
+      "permissions": [
+        "CAMERA"
+      ],
+      "versionCode": 14,
+      "package": "com.bogdandev3444456.kairat2"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a5dd8a0f-516f-4cda-a581-e350f4776e6a"
+      }
+    }
+  }
+}
